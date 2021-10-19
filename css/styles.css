@@ -6,6 +6,10 @@
   display: none;
 }
 
+.walrus-facts {
+  display: none;
+}
+
 h2 {
   float: right;
 }
@@ -16,5 +20,14 @@ h2 {
 }
 
 .clickable:hover {
+  text-decoration: underline;
+}
+
+.clickable-facts {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+.clickable-facts:hover {
   text-decoration: underline;
 }

@@ -5,4 +5,7 @@ $(document).ready(function() {
     $(".hide-image").toggle();
     $(".show-image").toggle();
   });
+  $(".clickable-facts").click(function() {
+    $(".walrus-facts").slideDown();
+  });
 });
